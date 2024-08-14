@@ -1,0 +1,116 @@
+{
+    "item" : "R", 
+    "children" : [ 
+        {
+            "item" : "t" ,
+            "children" : [  
+                {
+                    "item" : "t1" ,
+                    "children" : [
+                        {
+                            "item" : "t11" ,
+                            "children" : [
+        
+                            ]
+                        }, 
+                        {
+                            "item" : "t12" ,
+                            "children" : [
+        
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "item" : "t2" ,
+                    "children" : [
+                        {
+                            "item" : "t21" ,
+                            "children" : [
+        
+                            ]
+                        }, 
+                        {
+                            "item" : "t22" ,
+                            "children" : [
+        
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "item" : "t3" ,
+                    "children" : [
+                        {
+                            "item" : "t31" ,
+                            "children" : [
+                                {
+                                    "item" : "t311" ,
+                                    "children" : [
+                                        {
+                                            "item" : "t3111" ,
+                                            "children" : [
+                        
+                                            ]
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "item" : "t312" ,
+                                    "children" : [
+                
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "item" : "t32" ,
+                            "children" : [
+        
+                            ]
+                        }
+                    ]
+                }
+            ]
+        } ,
+        {    
+            "item" : "st" ,
+            "children" : [ 
+                {
+                    "item" : "st1" ,
+                    "children" : [
+                        {
+                            "item" : "st11" ,
+                            "children" : [
+        
+                            ]
+                        }, 
+                        {
+                            "item" : "st12" ,
+                            "children" : [
+        
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "item" : "st2" ,
+                    "children" : [
+                        {
+                            "item" : "st21" ,
+                            "children" : [
+        
+                            ]
+                        }, 
+                        {
+                            "item" : "st22" ,
+                            "children" : [
+        
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

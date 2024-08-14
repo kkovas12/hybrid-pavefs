@@ -1,0 +1,53 @@
+[    
+    {
+        "attribute": "B",
+        "attributeDescription": "Boolean Attribute B",
+        "attributeType" : "BOOLEAN",  
+        "weight" : 10 ,
+        "input" : true
+    } ,   
+    {
+        "attribute": "N",
+        "attributeDescription": "Numeric Attribute N",
+        "attributeType" : "NUMERIC",
+        "minValue" :0 ,     
+        "maxValue": 100,    
+        "weight" : 10 ,
+        "input" : true
+    } ,     {
+        "attribute": "C",
+        "attributeDescription": "Categorical Attribute C",
+        "attributeType" : "CATEGORICAL",
+        "classes" : ["c1","c2","c3"],
+        "weight" : 20 ,
+        "input" : true
+    }  ,     {
+        "attribute": "T",
+        "attributeDescription": "Categorical Tree Attribute T",
+        "attributeType" : "CATEGORICAL-TREE",
+        "branchRoot" : "t",
+        "weight" : 20 ,
+        "input" : true
+    }  ,     {
+        "attribute": "S",
+        "attributeDescription": "Set Attribute S",
+        "attributeType" : "SET",
+        "classes" : ["s1","s2","s3"],
+        "weight" : 20 ,
+        "input" : true
+    }  , {
+        "attribute": "ST",
+        "attributeDescription": "Set Tree Attribute ST",
+        "attributeType" : "SET-TREE",
+        "branchRoot" : "st",
+        "weight" : 20 
+    }   , {
+        "attribute": "O",
+        "attributeDescription": "Set Attribute O",
+        "attributeType" : "SET",
+        "classes" : ["o1","o2","o3","o4","o5"],
+        "weight" : 20 ,
+        "output" : true
+    } 
+
+]

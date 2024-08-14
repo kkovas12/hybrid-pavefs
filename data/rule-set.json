@@ -1,0 +1,68 @@
+[
+	{
+		"ruleID" : 1, 
+		"conditions" : [  
+			{
+			    "attribute": "C",
+			    "operator" : "equals", 
+			    "value"    : "c1"  
+			} ,
+            {
+			    "attribute": "S",
+			    "operator" : "contains", 
+			    "value"    : "s1"  
+			} 
+		] ,
+		"modifications" : [ 
+			{
+				"attribute" : "ST" ,
+				"operator"  : "add", 
+				"value"     : "st4" 
+			}
+		]
+	} ,
+	{
+		"ruleID" : 2, 
+		"conditions" : [  
+			{
+			    "attribute": "C",
+			    "operator" : "equals", 
+			    "value"    : "c2"  
+			} ,
+            {
+			    "attribute": "S",
+			    "operator" : "contains", 
+			    "value"    : "s2"  
+			} 
+		] ,
+		"modifications" : [ 
+			{
+				"attribute" : "T" ,
+				"operator"  : "replace", 
+				"value"     : "t5" 
+			}
+		]
+	} ,
+	{
+		"ruleID" : 3, 
+		"conditions" : [  
+			{
+			    "attribute": "C",
+			    "operator" : "equals", 
+			    "value"    : "c5"  
+			} ,
+            {
+			    "attribute": "S",
+			    "operator" : "contains", 
+			    "value"    : "s5"  
+			} 
+		] ,
+		"modifications" : [ 
+			{
+				"attribute" : "ST" ,
+				"operator"  : "remove", 
+				"value"     : "st2" 
+			}
+		]
+	}
+]

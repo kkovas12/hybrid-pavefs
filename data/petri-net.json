@@ -1,0 +1,42 @@
+{
+	"places" : [
+		{
+			"id" : "O:o5",
+			"type" : "source" 
+ 		}, 
+ 		{
+	 		"id":"N:n3" ,
+	 		"type" : "internal" 
+ 		}, 
+ 		{
+	 		"id":"S:s1" ,
+	 		"type" : "internal" 
+ 		}, 
+ 		{
+	 		"id":"O:o3" ,
+	 		"type" : "exit" 
+ 		}, 
+ 		{
+	 		"id":"O:o4" ,
+	 		"type" : "exit" 
+ 		}
+ 		
+	] ,
+	"transitions" : [
+		{
+			"label" : "transition_1" ,
+			"inputs" : [ "O:o5" ] ,
+			"outputs" : [ "N:n3", "S:s1" ]
+		}, 
+		{
+			"label" : "transition_2" ,
+			"inputs" : [ "N:n3" ] ,
+			"outputs" : [ "O:o3" ]
+		}, 
+		{
+			"label" : "transition_3" ,
+			"inputs" : [ "S:s1" ] ,
+			"outputs" : [ "O:o4" ]
+		}
+	]
+}
