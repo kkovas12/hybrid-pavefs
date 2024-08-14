@@ -7,4 +7,4 @@
 - To run the application: "npm run dev".
 - Open the application in browser: http://localhost:3550/
 
-The deafult input data are located in the folder "data/"
+The default input data are located in the folder "data/"
